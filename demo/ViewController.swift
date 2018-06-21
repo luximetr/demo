@@ -9,14 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var label: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        createEarth()
+        createMars()
+        createSun()
+        
+        breakpoints()
+    }
+    
+    func createEarth() {
         let earth = Planet(name: "earth")
         earth.printName()
     }
     
-    func otherPlanet() {
+    func createMars() {
         let mars = Planet(name: "mars");
         mars.printName()
     }
@@ -25,10 +35,13 @@ class ViewController: UIViewController {
         let sun = Star(name: "sun", size: CGSize(width: 2000, height: 2000))
         sun.printName()
     }
-    // adgf dg ag a
-    // sfgsfgj slfjg sf
-    // sfg jlsfgsfg
-    // sfgojlskfjg d
-
+    
+    func breakpoints() {
+        var numbers = [Int]()
+        for i in 0...10 {
+            numbers.append(i)
+            
+        }
+    }
+    
 }
-
