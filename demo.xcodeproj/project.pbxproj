@@ -14,6 +14,7 @@
 		3067D31720DAEC5700F95A00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3067D31520DAEC5700F95A00 /* LaunchScreen.storyboard */; };
 		3067D32120DAF49400F95A00 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3067D32020DAF49400F95A00 /* Planet.swift */; };
 		3067D32320DB54E100F95A00 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3067D32220DB54E100F95A00 /* UIColor+Extension.swift */; };
+		3067D32520DB596800F95A00 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3067D32420DB596800F95A00 /* Star.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3067D31820DAEC5700F95A00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3067D32020DAF49400F95A00 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		3067D32220DB54E100F95A00 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		3067D32420DB596800F95A00 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				3067D31520DAEC5700F95A00 /* LaunchScreen.storyboard */,
 				3067D31820DAEC5700F95A00 /* Info.plist */,
 				3067D32020DAF49400F95A00 /* Planet.swift */,
+				3067D32420DB596800F95A00 /* Star.swift */,
 				3067D32220DB54E100F95A00 /* UIColor+Extension.swift */,
 			);
 			path = demo;
@@ -144,6 +147,7 @@
 				3067D32120DAF49400F95A00 /* Planet.swift in Sources */,
 				3067D30F20DAEC5700F95A00 /* ViewController.swift in Sources */,
 				3067D30D20DAEC5700F95A00 /* AppDelegate.swift in Sources */,
+				3067D32520DB596800F95A00 /* Star.swift in Sources */,
 				3067D32320DB54E100F95A00 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

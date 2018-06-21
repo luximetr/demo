@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         let mars = Planet(name: "mars");
         mars.printName()
     }
+    
+    func createSun() {
+        let sun = Star(name: "sun")
+        sun.printName()
+    }
 
 }
 
