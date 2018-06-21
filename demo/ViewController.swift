@@ -19,7 +19,9 @@ class ViewController: UIViewController {
         createSun()
         
         breakpoints()
+        
     }
+    
     
     fileprivate func extractedFunc() -> Planet {
         return Planet(name: "earth")
@@ -40,6 +42,10 @@ class ViewController: UIViewController {
         sun.printName()
     }
     
+    func create(){
+        
+    }
+    
     func breakpoints() {
         var numbers = [Int]()
         for i in 0...10 {
@@ -50,5 +56,6 @@ class ViewController: UIViewController {
     
     @IBAction func actionTapOnButton(_ sender: Any) {
         performSegue(withIdentifier: "showNext", sender: self)
-    } 
+        
+    }
 }
