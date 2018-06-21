@@ -1,6 +1,6 @@
-# Project Title
+# What's new in XCode. Tips and tricks.
 
-One Paragraph of project description goes here
+
 
 ## Getting Started
 
@@ -8,6 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Build
 
+Parallelize build 
+Compilation mode «Incremental»
 What things you need to install the software and how to install them
 
 ```
