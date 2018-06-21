@@ -25,6 +25,10 @@ class ViewController: UIViewController {
         let sun = Star(name: "sun", size: CGSize(width: 2000, height: 2000))
         sun.printName()
     }
+    // adgf dg ag a
+    // sfgsfgj slfjg sf
+    // sfg jlsfgsfg
+    // sfgojlskfjg d
 
 }
 
