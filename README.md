@@ -9,6 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Build
 
 Parallelize build 
+![alt text](https://github.com/luximetr/demo/blob/develop/sources/parallelize_build.png)
 Compilation mode «Incremental»
 What things you need to install the software and how to install them
 
