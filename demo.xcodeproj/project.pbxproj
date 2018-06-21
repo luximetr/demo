@@ -12,6 +12,8 @@
 		3067D31220DAEC5700F95A00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3067D31020DAEC5700F95A00 /* Main.storyboard */; };
 		3067D31420DAEC5700F95A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3067D31320DAEC5700F95A00 /* Assets.xcassets */; };
 		3067D31720DAEC5700F95A00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3067D31520DAEC5700F95A00 /* LaunchScreen.storyboard */; };
+		3067D32120DAF49400F95A00 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3067D32020DAF49400F95A00 /* Planet.swift */; };
+		3067D32320DB54E100F95A00 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3067D32220DB54E100F95A00 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3067D31320DAEC5700F95A00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3067D31620DAEC5700F95A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3067D31820DAEC5700F95A00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3067D32020DAF49400F95A00 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		3067D32220DB54E100F95A00 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				3067D31320DAEC5700F95A00 /* Assets.xcassets */,
 				3067D31520DAEC5700F95A00 /* LaunchScreen.storyboard */,
 				3067D31820DAEC5700F95A00 /* Info.plist */,
+				3067D32020DAF49400F95A00 /* Planet.swift */,
+				3067D32220DB54E100F95A00 /* UIColor+Extension.swift */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3067D32120DAF49400F95A00 /* Planet.swift in Sources */,
 				3067D30F20DAEC5700F95A00 /* ViewController.swift in Sources */,
 				3067D30D20DAEC5700F95A00 /* AppDelegate.swift in Sources */,
+				3067D32320DB54E100F95A00 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
