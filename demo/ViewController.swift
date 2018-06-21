@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
     
     func createSun() {
-        let sun = Star(name: "sun")
+        let sun = Star(name: "sun", size: CGSize(width: 2000, height: 2000))
         sun.printName()
     }
 

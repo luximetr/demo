@@ -6,13 +6,15 @@
 //  Copyright © 2018 branderstudio. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class Star {
     let name: String
+    let size: CGSize
     
-    init(name: String) {
+    init(name: String, size: CGSize) {
         self.name = name
+        self.size = size
     }
     
     func printName() {
