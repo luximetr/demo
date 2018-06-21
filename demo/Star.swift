@@ -10,9 +10,11 @@ import Foundation
 
 class Star {
     let name: String
+    let weight: Int
     
-    init(name: String) {
+    init(name: String, weight: Int) {
         self.name = name
+        self.weight = weight
     }
     
     func printName() {
