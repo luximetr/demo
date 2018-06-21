@@ -3,16 +3,24 @@
 
 ### Build
 
+```
 Parallelize build 
+```
 ![alt text](https://github.com/luximetr/demo/blob/develop/sources/parallelize_build.png)
 
+```
 Compilation mode «Incremental»
+```
 ![alt text](https://github.com/luximetr/demo/blob/develop/sources/compilation_mode_incremental.png)
 
+```
 defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES | NO
+```
 ![alt text](https://github.com/luximetr/demo/blob/develop/sources/build_time.png)
 
+```
 Product -> Perform action -> Build with timing summary
+```
 ![alt text](https://github.com/luximetr/demo/blob/develop/sources/timing_summary.png)
 
 
