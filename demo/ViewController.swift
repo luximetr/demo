@@ -21,8 +21,12 @@ class ViewController: UIViewController {
         breakpoints()
     }
     
+    fileprivate func extractedFunc() -> Planet {
+        return Planet(name: "earth")
+    }
+    
     func createEarth() {
-        let earth = Planet(name: "earth")
+        let earth = extractedFunc()
         earth.printName()
     }
     
@@ -44,4 +48,7 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func actionTapOnButton(_ sender: Any) {
+        performSegue(withIdentifier: "showNext", sender: self)
+    } 
 }
