@@ -39,6 +39,7 @@ Product -> Perform action -> Build with timing summary
 ### Source control
 
 Source control states
+
 ![alt text](https://github.com/luximetr/demo/blob/develop/sources/source_control_states.png)
 
 
