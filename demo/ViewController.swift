@@ -46,16 +46,20 @@ class ViewController: UIViewController {
         
     }
     
+    
+    
+    @IBAction func actionTapOnButton(_ sender: Any) {
+        performSegue(withIdentifier: "showNext", sender: self)
+        
+    }
+}
+
+extension ViewController {
     func breakpoints() {
         var numbers = [Int]()
         for i in 0...10 {
             numbers.append(i)
             
         }
-    }
-    
-    @IBAction func actionTapOnButton(_ sender: Any) {
-        performSegue(withIdentifier: "showNext", sender: self)
-        
     }
 }

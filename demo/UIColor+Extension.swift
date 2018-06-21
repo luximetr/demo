@@ -12,11 +12,9 @@ extension UIColor {
     static var earth: UIColor {
         return UIColor(named: "earth")!
     }
-    
     static var mars: UIColor {
         return UIColor(named: "mars")!
     }
-    
     static var venus: UIColor {
         return UIColor(named: "venus")!
     }
