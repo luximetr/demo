@@ -44,12 +44,26 @@ Product -> Perform action -> Build with timing summary
 
 ### Actions
 
+Cmd+Click at code for open actions
+
+For classes:
+- fold
+- create method
+- edit in scope
+- rename
+- etc.
+
+For methods:
+- add parameter
+- add return type
+- callers
+- etc.
+
 ### Source control
 
 Source control states
 
 ![alt text](https://github.com/luximetr/demo/blob/develop/sources/source_control_states.png)
-
 
 ### Multi cursor editing
 
@@ -61,9 +75,16 @@ Option+Drag mouse
 
 ### Code snippets
 
+![alt text](https://github.com/luximetr/demo/blob/develop/sources/code_snippet_creation.png)
+
 ```
-<# #> - for template code
+<# placeholder text #> - for template code
 ```
+You can chose: 
+- platform (iOS, macOS)
+- language (Swift, Obj-C)
+- completion scope (function, top level)
+- completion shortcut 
 
 ### File templates
 
@@ -72,7 +93,16 @@ mkdir -p ~/Library/Developer/Xcode/Templates/File\ Templates/Mine
 cp -R /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\ Templates/Source/Swift\ File.xctemplate/ ~/Library/Developer/Xcode/Templates/File\ Templates/Mine/Protocol\ with\ Extension.xctemplate
 
 
-### Break points
+### Breakpoints
+
+Breakpoint actions:
+- activate / disable
+- condition
+- ignoring n times before stop
+- log message (@exp@ - expression, %B - breakpoint name, %H - hit count )
+- debugger command like 'po'
+- play sound
+- automatically continue 
 
 ## References
 
