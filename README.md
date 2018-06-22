@@ -75,7 +75,7 @@ Option+Drag mouse
 
 ### Code snippets
 
-![alt text](https://github.com/luximetr/demo/blob/develop/sources/code_snippet_creation.png)
+![alt text](https://github.com/luximetr/demo/blob/develop/sources/code_snippet_creation.gif)
 
 ```
 <# placeholder text #> - for template code
