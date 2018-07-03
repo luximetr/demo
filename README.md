@@ -75,6 +75,8 @@ Option+Drag mouse
 
 ### Code snippets
 
+For create code snippet you select code that you want, click on it with right button and select 'Create Code Snippet'.
+
 ![alt text](https://github.com/luximetr/demo/blob/develop/sources/code_snippet_creation.gif)
 
 ```
